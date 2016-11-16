@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.administrator.a7testweekdemo.fragment.BaiKeFragment">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/fragment_bai_ke_listViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ptr:ptrAnimationStyle="flip"/>
+
+</RelativeLayout>
